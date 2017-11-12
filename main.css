@@ -1,0 +1,77 @@
+body {
+	background: darkgray;
+}
+
+#helmet {
+	width: 130px;
+	height: 55px;
+	background-color: white;
+	border-top: 6px solid black;
+	border-bottom: 6px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 50px 50px 10px 10px;
+}
+
+/*#face {
+	width: 130px;
+	height: 35px;
+	background-color: white;
+	border-top: 2px solid black;
+	border-radius: -10px -10px 10px 10px;
+	z-index: -1;
+}*/
+
+#eyes div {
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#lefteye {
+	width: 0;
+	height: 5px;
+	border-top: 10px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 55px solid black;
+	margin: 2px;
+	border-radius: 6px;
+	transform: skew(12deg, -12deg);
+}
+
+#righteye {
+	width: 0;
+	height: 5px;
+	border-top: 10px solid transparent;
+	border-bottom: 15px solid transparent;
+	/*border-left: 55px solid black;*/
+	border-right: 55px solid black;
+	margin: 2px;
+	border-radius: 6px;
+	transform: skew(-12deg, 12deg);
+}
+
+#mouth {
+	width: 0;
+	height: 5px;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid black;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	margin-top: -20px;
+	margin-left: 16px;
+	/*transform: skew(2deg, 12deg);*/
+
+}
+
+#mouth-bottom {
+	width: 0;
+	height: 5px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid darkgray;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	margin-top: -33px;
+	margin-left: 16px;
+	/*transform: skew(2deg, 12deg);*/
+}
