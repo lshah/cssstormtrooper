@@ -1,6 +1,16 @@
 body {
 	background: darkgray;
-	padding: 55px;
+	max-width: 940px;
+	padding: 5%;
+	margin: 5% 15%;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	margin-left: 40%;
 }
 
 #helmet-top {
